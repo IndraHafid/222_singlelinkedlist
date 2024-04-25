@@ -12,6 +12,19 @@ struct node {
 
 node* START = NULL;
 
+void addNode() {
+    int nim;
+    string nama;
+    node* nodeBaru = new node();
+    cout << "Masukkan NIM : ";
+    cin >> nim;
+    cout << "Masukkan Nama :";
+    cin >> nama;
+    nodeBaru->noMhs = nim;
+    nodeBaru->name = nama;
+
+}
+
 
 int main()
 {
